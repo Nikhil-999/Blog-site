@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Exercise</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand active" href="Home.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="Card.html">Cities</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="list.html">Exercises</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="modal.html" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class="container">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/n1.jpg" class="d-block w-100" alt="...">
+        <!-- <div id="pic" class="d-block w-100"></div> -->
+        <div  class="carousel-caption d-none d-md-block bg-success">
+          <h2>Nature</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/n2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block bg-success">
+          <h2>Environment</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/n3.jpg" class="d-block w-100" alt="...">
+       
+        <div class="carousel-caption d-none d-md-block bg-success">
+          <h2>Climate</h2>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        <h5 class="modal-title fs-2" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- body  -->
+
+  <div class="container" id="first_div">
+    <h1 class="colrs">Daily Exercise</h1>
+  </div>
+  <br>
+  <div class="container">
+    <h4 class="colrs">Top 5 exercise do's <span class="badge bg-primary rounded-pill">must</span></h4>
+    <br>
+  </div>
+  <div class="container" id="main_box">
+    <div class="row">
+      <div class="col bg-success text-light" id="DOS">Do's</div>
+    </div>
+    <div class="row">
+      <div class="col">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Warm up and cool down
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> It help prepare the body for all the stressors associated with training, also helps prevent
+                  injury.
+                </strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Drink enough water
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Keeping hydrated ensures that you keep your body temperature stable. It also reduces the onset
+                  of cramps and keep's the body's cooling system running adequately.
+                </strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Kegel exercises
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> These exercises will make giving birth easier and also ensure a speedier recovery afterwards.
+                  If you undergo a c-section, having a strong core will be very beneficial in helping you return to
+                  normal pre-pregnancy activities.
+                </strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                Breathe correctly
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Breathing correctly during muscle contraction is necessary to prevent your blood pressure from
+                  escalating. It also helps reduce dizziness and muscular cramping, due to lack of oxygen.
+                </strong>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                Proper relaxation
+              </button>
+            </h2>
+            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Finally make space for some relaxation between exercises to give substantial time to grow and
+                  heal the muscles. Never do a series of exercises in one go. Instead, take a tiny break between
+                  exercises.
+                </strong>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <br>
+  <div class="container">
+    <button class="btn btn-success m-2" onclick="alertfunc()">Tip</button>
+  </div>
+  <br>
+  <div id="text"></div>
+
+
+  <br>
+
+
+  <br><br>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./assets/home.js"></script>
+</body>
+
+</html>

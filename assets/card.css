@@ -1,0 +1,20 @@
+#offcanvasRight , .offcanvas-body ul li, .offcanvas-header{
+    background: radial-gradient( circle farthest-corner at 10% 20%, #5dfe60 0%, #28d1ab 90% );
+
+}
+
+.offcanvas-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.navbar{
+    background-color:#5dfe60;
+}
+
+#offcanvasRightLabel{
+    color: darkgreen;
+    font-size:xx-large;
+}

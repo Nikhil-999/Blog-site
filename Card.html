@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/card.css">
+  <title>Card</title>
+</head>
+
+<body style="background-color: rgb(208, 234, 208);">
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="Card.html">Card</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+
+  <div class="container text-center">
+    <h1>Smart Cities of INDIA</h1>
+    <br>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col">
+          <div class="card" style="box-shadow:4px 4px 12px lightgreen; height: 500px;">
+            <img src="./assets/jaipur.jpg" class="card-img-top rounded" alt="..." height="173px">
+            <div class="card-body">
+              <h5 class="card-title text-start">Jaipur</h5>
+              <p class="text-success fw-bold">Known for:</p>
+              <div class="container">
+                <ul class="list-group list-group-flush mb-4">
+                  <li class="list-group-item text-center">Hawa Mahal</li>
+                  <li class="list-group-item text-center">Jal Mahal</li>
+                  <li class="list-group-item text-center">Amer Fort</li>
+                </ul>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Jaipur" target="relative"
+                class="btn btn-danger position-absolute bottom-0 end-0 ">more info</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+
+
+          <div class="card" style="box-shadow:4px 4px 12px lightgreen; height: 500px;">
+            <img src="./assets/pune.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-start">Pune</h5>
+              <p class="text-success fw-bold">Known for:</p>
+              <div class="container">
+                <ul class="list-group list-group-flush mb-4">
+                  <li class="list-group-item text-center">IT Hub</li>
+                  <li class="list-group-item text-center">Automobile and manufacturing Hub</li>
+                  <li class="list-group-item text-center">Rich Cultural Heritage</li>
+                </ul>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Pune" target="relative"
+                class="btn btn-danger position-absolute bottom-0 end-0 ">more info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+          <div class="card" style="box-shadow:4px 4px 12px lightgreen; height: 500px;">
+            <img src="./assets/surat.jpg" class="card-img-top rounded" alt="..." height="173px">
+            <div class="card-body">
+              <h5 class="card-title text-start">Surat</h5>
+              <p class="text-success fw-bold">Known for:</p>
+              <div class="container">
+                <ul class="list-group list-group-flush mb-4">
+                  <li class="list-group-item text-center">The silk city</li>
+                  <li class="list-group-item text-center">The diamond city</li>
+                  <li class="list-group-item text-center">The Green city</li>
+                </ul>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Surat" target="relative"
+                class="btn btn-danger position-absolute bottom-0 end-0 ">more info</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+
+          <div class="card" style="box-shadow:4px 4px 12px lightgreen; height: 500px;">
+            <img src="./assets/ahmedabad.jpg" class="card-img-top rounded" alt="..." height="173px">
+            <div class="card-body">
+              <h5 class="card-title text-start">Ahmedabad</h5>
+              <p class="text-success fw-bold">Known for:</p>
+              <div class="container">
+                <ul class="list-group list-group-flush mb-4">
+                  <li class="list-group-item text-center">Kankaria Lake</li>
+                  <li class="list-group-item text-center">Lal Darwaja Market</li>
+                  <li class="list-group-item text-center">Law garden</li>
+                </ul>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Ahmedabad" target="relative"
+                class="btn btn-danger position-absolute bottom-0 end-0 ">more info</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center pt-5 pb-5">
+    <span class="fs-4">View more Smart Cities </span>
+    <button class="btn btn-success btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight">Show</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">List of more Cities</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-group list-group-flush text-start">
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Saharanpur" target="_relative">Saharanpur</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Moradabad" target="_relative">Moradabad</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Bareilly" target="_relative">Bareilly</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Itanagar" target="_relative">Itanagar</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Silvassa" target="_relative">Silvassa</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Diu" target="_relative">Diu</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Kavaratti" target="_relative">Kavaratti</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Bihar_Sharif" target="_relative">Bihar Sharif</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://en.wikipedia.org/wiki/Shillong" target="_relative">Shillong</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
