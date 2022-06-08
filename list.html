@@ -23,15 +23,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
           <li class="nav-item">
             <a class="nav-link" href="Card.html">Cities</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link active" href="list.html">Exercises</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="modal.html" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
           </li>
@@ -39,11 +36,6 @@
       </div>
     </div>
   </nav>
-
-
-
-
-
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -79,19 +71,14 @@
       </div>
     </div>
   </div>
-
   <br>
-
   <div class="ms-md-5 fs-1">Select the most common exercise you do regularly.</div>
   <br>
 
   <!-- body  -->
   <div class="container" id="top_container">
-
     <div class="list-group-item d-flex justify-content-between align-items-start">
-
       <div class="fw-bold fs-3 ms-md-5">Daily Exercises</div>
-
       <span class="badge bg-info fs-6">Difficulty</span>
     </div>
 
@@ -119,23 +106,23 @@
       </li>
     </ol>
   </div>
-
-
+  
   <br>
   <div class="container">
     <div class="row">
 
       <div class="col" id="second_box">
         <p class="text-center">
-          <button class="btn btn-warning fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-            aria-expanded="false" aria-controls="collapseWidthExample" id="second_box_btn">
+          <button class="btn btn-warning fs-5" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample"
+            id="second_box_btn">
             Medium
           </button>
         </p>
         <div style="min-height: 120px;">
           <div class="collapse" id="collapseWidthExample">
 
-        <!-- inside medium button     -->
+            <!-- inside medium button     -->
             <ol class="list-group list-group-numbered list-group-flush">
               <li id="li4" class="list-group-item d-flex justify-content-between align-items-start" onclick="li4()">
                 <div class="ms-2 me-auto">
@@ -154,7 +141,7 @@
               <li id="li6" class="list-group-item d-flex justify-content-between align-items-start" onclick="li6()">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Weighted Squats</div>
-                  It is one of the best exercise for legs. 
+                  It is one of the best exercise for legs.
                 </div>
                 <span class="badge bg-warning rounded-pill">medium</span>
               </li>
@@ -167,14 +154,15 @@
 
       <div class="col" id="third_box">
         <p class="text-center">
-          <button class="btn btn-danger fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2"
-            aria-expanded="false" aria-controls="collapseWidthExample2" id="third_box_btn">
+          <button class="btn btn-danger fs-5" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2"
+            id="third_box_btn">
             Hard
           </button>
         </p>
         <div style="min-height: 120px;">
           <div class="collapse" id="collapseWidthExample2">
-            
+
             <ol class="list-group list-group-numbered list-group-flush">
               <li id="li7" class="list-group-item d-flex justify-content-between align-items-start" onclick="li7()">
                 <div class="ms-2 me-auto">
@@ -193,7 +181,8 @@
               <li id="li9" class="list-group-item d-flex justify-content-between align-items-start" onclick="li9()">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Weighted Pull ups</div>
-                  Pull ups target your back, biceps and forearm muscles. It's great exercise to improve your body posture.
+                  Pull ups target your back, biceps and forearm muscles. It's great exercise to improve your body
+                  posture.
                 </div>
                 <span class="badge bg-danger rounded-pill">hard</span>
               </li>
@@ -206,38 +195,35 @@
     </div>
 
   </div>
-<div class="container mt-3 text-center">
-  <button type="button" class="btn btn-primary fs-4" id="last_button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Submit</button>
-</div>
+  <div class="container mt-3 text-center">
+    <button type="button" class="btn btn-primary fs-4" id="last_button" data-bs-toggle="modal"
+      data-bs-target="#exampleModal2">Submit</button>
+  </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Your selection</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="inside_modal">
 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Your selection</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" id="inside_modal">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-<br>
-
+  <br>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-    <script src="./assets/list.js"></script>
+  <script src="./assets/list.js"></script>
 </body>
 
 </html>
